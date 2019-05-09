@@ -1,0 +1,59 @@
+.App { text-align: center; }
+
+.NotAirBnB { 
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+ul { list-style-type: none; }
+
+#rentals, .CartRental {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+}
+
+.CartRental { 
+    max-width: 70%;
+    margin: 0 auto 10px;
+    grid-template-columns: .5fr .2fr .2fr; 
+    text-align: left;
+    align-items: center;
+}
+
+.CartTitle { font-weight: bold; }
+
+.rental {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.rentalImage { 
+    width: 100%; 
+    height: auto; 
+}
+
+.houseType { text-transform: uppercase; }
+
+.CartRental span {
+    margin-right: 20px;
+}
+
+button {
+    background-color: purple;
+    border: 1px solid purple;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+button:hover, button:active, button:focus {
+    background-color: darkcyan;
+    border: 1px solid darkcyan;
+    cursor: pointer;
+}
+
+hr { margin: 50px 0;}
